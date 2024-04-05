@@ -14,9 +14,9 @@ const db = mysql.createConnection(
 
 db.connect(function (err) {
     if (err) throw err;
-    console.log(|--------------------------------------|);
-    console.log(|           EMPLOYEE TRACKER           |);
-    console.log(|--------------------------------------|);
+    console.log("**********************************");
+    console.log("*        EMPLOYEE TRACKER        *");
+    console.log("**********************************");
     startingQuestion();
 });
 
